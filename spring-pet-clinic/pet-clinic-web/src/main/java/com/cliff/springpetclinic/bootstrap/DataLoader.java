@@ -1,4 +1,4 @@
-package com.spring.springpetclinic.bootstrap;
+package com.cliff.springpetclinic.bootstrap;
 
 import com.cliff.springpetclinic.models.Owner;
 import com.cliff.springpetclinic.models.Vet;
