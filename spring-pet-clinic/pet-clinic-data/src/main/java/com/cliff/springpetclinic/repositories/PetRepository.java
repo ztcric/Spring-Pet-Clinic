@@ -1,7 +1,8 @@
 package com.cliff.springpetclinic.repositories;
 
 import com.cliff.springpetclinic.models.Pet;
-import com.cliff.springpetclinic.services.CrudService;
+import org.springframework.data.repository.CrudRepository;
 
-public interface PetRepository extends CrudService<Pet, Long> {
+
+public interface PetRepository extends CrudRepository<Pet, Long> {
 }
