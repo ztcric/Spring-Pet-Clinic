@@ -1,7 +1,7 @@
 package com.cliff.springpetclinic.repositories;
 
 import com.cliff.springpetclinic.models.Speciality;
-import com.cliff.springpetclinic.services.CrudService;
+import org.springframework.data.repository.CrudRepository;
 
-public interface SpecialityRepository extends CrudService<Speciality, Long> {
+public interface SpecialityRepository extends CrudRepository<Speciality, Long> {
 }
