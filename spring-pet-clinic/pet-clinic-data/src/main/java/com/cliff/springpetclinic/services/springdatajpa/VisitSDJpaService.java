@@ -44,4 +44,8 @@ public class VisitSDJpaService implements VisitService {
     public void deleteById(Long aLong) {
         deleteById(aLong);
     }
+
+    public void foo(){
+
+    }
 }
